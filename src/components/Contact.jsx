@@ -2,7 +2,6 @@ import { createElement, useRef } from "react";
 import { content } from "../Content";
 import emailjs from "@emailjs/browser";
 import toast, { Toaster } from "react-hot-toast";
-
 const Contact = () => {
   const { Contact } = content;
   const form = useRef();
@@ -13,7 +12,7 @@ const Contact = () => {
 
     emailjs
       .sendForm(
-        process.env.SERVICE_ID, process.env.TEMPLATE_ID, form.current,process.env.PUBLIC_KEY
+        import.meta.env.VITE_SERVICE_ID, import.meta.env.VITE_TEMPLATE_ID, form.current,import.meta.env.VITE_PUBLIC_KEY
       )
       .then(
         (result) => {

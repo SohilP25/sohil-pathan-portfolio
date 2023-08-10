@@ -7,10 +7,12 @@ import Projects from "./components/Projects";
 import Timeline from "./components/Timeline";
 import Info from "./components/Info";
 import Contact from "./components/Contact";
+// import dotenv from  'dotenv'
 import { useEffect } from "react";
 // Animation package
 import Aos from "aos";
 import "aos/dist/aos.css";
+
 
 const App = () => {
   useEffect(() => {
