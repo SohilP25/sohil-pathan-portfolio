@@ -1,27 +1,24 @@
 // import images
-import Hero_person from "/assets/images/Hero/person.png";
-import figma from "/assets/images/Skills/figma.png";
-import reactjs from "/assets/images/Skills/react.png";
-import nodejs from "/assets/images/Skills/node.png";
-import expressjs from "/assets/images/Skills/expressjs.png";
-import cpp from "/assets/images/Skills/cpp.png";
-import tailwind from "/assets/images/Skills/tailwind.png"; 
-import mongodb from "/assets/images/Skills/mongodb.png";
-import mysql from "/assets/images/Skills/mysql.png";
-import postman from "/assets/images/Skills/postman.png";
-import javascript from "/assets/images/Skills/javascript.png";
+import Hero_person from "/person.png";
+import figma from "/figma.png";
+import reactjs from "/react.png";
+import nodejs from "/node.png";
+import expressjs from "/expressjs.png";
+import cpp from "/cpp.png";
+import tailwind from "/tailwind.png"; 
+import mongodb from "/mongodb.png";
+import mysql from "/mysql.png";
+import postman from "/postman.png";
+import javascript from "/javascript.png";
 
-import services_logo1 from "/assets/images/Services/logo1.png";
-import services_logo2 from "/assets/images/Services/logo2.png";
-import services_logo3 from "/assets/images/Services/logo3.png";
 
-import project1 from "/assets/images/projects/img1.png";
-import project2 from "/assets/images/projects/img2.png";
-import project3 from "/assets/images/projects/img3.png";
+import project1 from "/img1.png";
+import project2 from "/img2.png";
+import project3 from "/img3.png";
 
-import college from "/assets/images/Timeline/college.png";
-import school from "/assets/images/Timeline/school.png";
-import company from "/assets/images/Timeline/company.png";
+import college from "/college.png";
+import school from "/school.png";
+import company from "/company.png";
 
 // import icons from react-icons
 import { GrMail } from "react-icons/gr";
@@ -134,27 +131,27 @@ export const content = {
     ],
     icon: MdArrowForward,
   },
-  services: {
-    title: "Services",
-    subtitle: "WHAT I OFFER",
-    service_content: [
-      {
-        title: "Web Development",
-        para: "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document elying on mean",
-        logo: services_logo1,
-      },
-      {
-        title: "ui / ux DESIGNING",
-        para: "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document elying on mean",
-        logo: services_logo2,
-      },
-      {
-        title: "PhotoShop Editing",
-        para: "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document elying on mean",
-        logo: services_logo3,
-      },
-    ],
-  },
+  // services: {
+  //   title: "Services",
+  //   subtitle: "WHAT I OFFER",
+  //   service_content: [
+  //     {
+  //       title: "Web Development",
+  //       para: "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document elying on mean",
+  //       logo: services_logo1,
+  //     },
+  //     {
+  //       title: "ui / ux DESIGNING",
+  //       para: "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document elying on mean",
+  //       logo: services_logo2,
+  //     },
+  //     {
+  //       title: "PhotoShop Editing",
+  //       para: "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document elying on mean",
+  //       logo: services_logo3,
+  //     },
+  //   ],
+  // },
   Projects: {
     title: "Projects",
     subtitle: "MY CREATION",
