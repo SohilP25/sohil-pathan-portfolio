@@ -45,15 +45,7 @@ const Hero = () => {
           <br />
           <div className="flex justify-end">
             <button className="btn">
-              <a
-                href={
-                  "https://drive.google.com/file/d/1Q7cvRUBcj0KCRvKWXvqHf51MbwovYZiC/view?usp=sharing"
-                }
-                target="_blank"
-              >
-                {hero.btnText}
-              </a>
-            </button>
+              <a href={"https://drive.google.com/file/d/1_Ivm9aWMn_wxNhYoChjHvQUOeaYX8pZ6"} target="_blank">{hero.btnText}</a></button>
           </div>
           <div className="flex flex-col gap-10 mt-10">
             {hero.hero_content.map((content, i) => (
