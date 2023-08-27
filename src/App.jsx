@@ -8,7 +8,7 @@ import Timeline from "./components/Timeline";
 import Info from "./components/Info";
 import Contact from "./components/Contact";
 // import dotenv from  'dotenv'
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 // Animation package
 import Aos from "aos";
 import "aos/dist/aos.css";
@@ -21,6 +21,7 @@ const App = () => {
       offset: 100,
       disable: "mobile",
     });
+
   }, []);
   return (
     <div className="">
@@ -33,9 +34,12 @@ const App = () => {
       <Projects />
       <Contact />
       <footer className="p-3 text-center">
-        <h6 className="mb-3">SOHIL PATHAN</h6>
-        <p>sohil pathan © All CopyRights Reserved 2023</p>
+        <h6 className="mb-3">Thank You! for your interest.</h6>
+        {/* <p>sohil pathan © All CopyRights Reserved 2023</p> */}
+        <p> Made with 💙 by sohil pathan</p>
+
       </footer>
+      
     </div>
   );
 };

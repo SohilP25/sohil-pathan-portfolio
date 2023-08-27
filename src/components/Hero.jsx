@@ -1,6 +1,8 @@
 // import content
 import { useEffect } from "react";
 import { content } from "../Content";
+import { TypeAnimation } from "react-type-animation";
+
 const Hero = () => {
   const { hero } = content;
 
@@ -19,12 +21,39 @@ const Hero = () => {
         </div>
 
         {/* first col */}
-        <div className="pb-16 px-6 pt-5" data-aos="fade-down">
-          <h2>{hero.title}</h2>
+        <div className="pb-16 px-6 pt-4" data-aos="fade-down">
+          <h6>Hello, I'm Sohil</h6>
+        <div className="pl-4" data-aos="fade-down">
+          <h2 className="px-5" >
+          {/* Web Developer */}
+            <TypeAnimation
+              sequence={[
+                // Same substring at the start will only be typed once, initially
+                "A Programmer",
+                1000,
+                "A Developer",
+                1000,
+                "A Techie",
+                1000,
+                "A Student",
+                1000,
+              ]}
+              speed={50}
+              repeat={Infinity}
+            />
+          </h2>
           <br />
           <div className="flex justify-end">
             <button className="btn">
-              <a href={"https://drive.google.com/file/d/1Q7cvRUBcj0KCRvKWXvqHf51MbwovYZiC/view?usp=sharing"} target="_blank">{hero.btnText}</a></button>
+              <a
+                href={
+                  "https://drive.google.com/file/d/1Q7cvRUBcj0KCRvKWXvqHf51MbwovYZiC/view?usp=sharing"
+                }
+                target="_blank"
+              >
+                {hero.btnText}
+              </a>
+            </button>
           </div>
           <div className="flex flex-col gap-10 mt-10">
             {hero.hero_content.map((content, i) => (
@@ -40,6 +69,7 @@ const Hero = () => {
               </div>
             ))}
           </div>
+        </div>
         </div>
 
         {/* sec col */}
