@@ -24,7 +24,7 @@ const Hero = () => {
         <div className="pb-16 px-6 pt-4" data-aos="fade-down">
           <h6>Hello, I'm Sohil</h6>
         <div className="pl-4" data-aos="fade-down">
-          <h2 className="px-5" >
+          <h2 className="px-5 text-4xl" >
           {/* Web Developer */}
             <TypeAnimation
               sequence={[
